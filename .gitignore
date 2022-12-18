@@ -129,7 +129,9 @@ dmypy.json
 .pyre/
 
 # large binary files
-*data
+*.png, *.jpg, *.jpeg, *.csv
+cv/pytorch/custom_datasets/raw_data/*
+!cv/pytorch/custom_datasets/raw_data/metadata.toml
 # wandb
 *wandb
 *logs
